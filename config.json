@@ -1,0 +1,19 @@
+{
+    "data_file": "/Users/nijatz/recomender1/pythonProject/RecommenderSystemProject/data/raw/dataset.csv",
+    "processed_dir": "/Users/nijatz/recomender1/pythonProject/RecommenderSystemProject/data/processed/",
+    "log_file": "/Users/nijatz/recomender1/pythonProject/RecommenderSystemProject/project.log",
+    "classification_method": "kmeans",
+    "n_clusters": 3,
+    "normalization_method": "mean_centering",
+    "normalization_methods": ["mean_centering", "z_score", "robust_scaling", "hybrid"],
+    "similarity_method": "user",
+    "similarity_methods": ["user", "item"],
+    "similarity_metric": "cosine",
+    "neighborhood_method": "top_n",
+    "neighborhood_methods": ["top_n", "threshold", "negative"],
+    "n_neighbors": 5,
+    "n_neighbors_options": [5, 10, 15],
+    "threshold": 0.5,
+    "recommendation_method": "hybrid",
+    "alpha": 0.5
+}
