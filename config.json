@@ -1,7 +1,7 @@
 {
-    "data_file": "/Users/nijatz/recomender1/pythonProject/RecommenderSystemProject/data/raw/dataset.csv",
-    "processed_dir": "/Users/nijatz/recomender1/pythonProject/RecommenderSystemProject/data/processed/",
-    "log_file": "/Users/nijatz/recomender1/pythonProject/RecommenderSystemProject/project.log",
+    "data_file": "../data/raw/dataset.csv",
+    "processed_dir": "../data/processed/",
+    "log_file": "../project.log",
     "classification_method": "kmeans",
     "n_clusters": 3,
     "normalization_method": "mean_centering",
